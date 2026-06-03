@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #075E54;
+  --color-accent: #E67E22;
+  --color-background: #FFF8F0;
+  --color-text: #2C2C2A;
+  --font-heading: var(--font-poppins);
+  --font-body: var(--font-inter);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.bg-light {
+  background-color: var(--color-background);
+}
+
+.text-dark {
+  color: var(--color-text);
+}
+
+.text-light {
+  color: var(--color-background);
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.navbar-padding {
+  @apply px-4 md:px-15 lg:px-20 xl:px-20 2xl:px-60
+}
+
+.section-padding {
+  @apply px-4 md:px-15 lg:px-20 xl:px-20 2xl:px-60 mt-6 xl:mt-15
+}
+
+.produk-title {
+  font-family: var(--font-heading);
+  @apply
+  text-xl font-bold 
+  md:text-2xl
+
+}
+
+.produk-content {
+  @apply
+  text-base
+  md:text-xl
+}
