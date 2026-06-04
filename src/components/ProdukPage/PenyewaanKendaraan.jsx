@@ -29,10 +29,14 @@ const PenyewaanKendaraan = () => {
                     md:flex
                     ">Penyewaan Kendaraan</h2>
                     <p className="produk-content">Layanan jasa pemindahan hak guna atau pemanfaatan kendaraan mobil atau angkutan pariwisata dalam jangka waktu tertentu dengan imbalan biaya sewa, tanpa memindahkan hak kepemilikan. Ini mencakup opsi lepas kunci (mandiri) atau dengan sopir, serta sewa harian, mingguan, hingga bulanan.</p>
-                    <Link className="flex gap-2 items-center p-2 px-6 text-dark bg-accent w-fit rounded-4xl font-bold" href="/">
+                    <a className="flex gap-2 items-center p-2 px-6 text-dark bg-accent w-fit rounded-4xl font-bold" 
+                    href="https://wa.me/6281995420359"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
                     <WhatsappLogoIcon size={30} />
                     Pesan Sekarang
-                    </Link>
+                    </a>
                 </div>
                 <GambarProduk images={images}/>
             </div>

@@ -5,6 +5,10 @@ import HomeGaleri from "@/components/HomePage/HomeGaleri"
 import HomeGaleriMobile from "@/components/HomePage/HomeGaleriMobile"
 import Mitra from "@/components/HomePage/Mitra"
 
+export const metadata = {
+  title: "Beranda | Koperasi Kumbasari",
+};
+
 const Page = () => {
   return (
     <>

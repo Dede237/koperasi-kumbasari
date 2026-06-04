@@ -13,7 +13,7 @@ const KantorCabangPembantu = () => {
                 <DetailCabang 
                 nama="KCP Pasar Satrya"
                 alamat="Pasar Satrya Lt. 4. Jl. Abimayu, Dangin Puri Kaja, Dangin Puri Kauh, Kec. Denpasar Utara, Kota Denpasar, Bali 80231"
-                telepon="(0361) - 8442674"
+                telepon="(0361) - 237107"
                 />
                 <DetailCabang 
                 nama="KCP Pasar Sanglah"
